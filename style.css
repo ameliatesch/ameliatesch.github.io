@@ -1,0 +1,24 @@
+body {
+    background-color: #FFC503;
+    margin-left: 50px;
+    font-family: "Roboto", medium;
+  }
+  h1{
+    font-size: 50px;
+  }
+  .intro{
+    font-size: 70px;
+    padding-bottom: 10px;  
+  }
+  h2{
+    font-size: 30px;
+  }
+  .facts{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  .socialMedia{
+    font-size: 20px;
+  }
