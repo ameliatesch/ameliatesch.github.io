@@ -10,13 +10,23 @@ header.masthead .intro-text {
 #myFace{
     width: 100%;
 }
-#portfolio{
-    background-color: #fec136;
-}
-.navbar-brand .js-scroll-trigger {
-    font-style: normal;
-}
 
 .intro-heading{
     font-family: 'Cantarell', sans-serif;
+}
+
+#aboutcontent{
+    padding-top: 40px;
+}
+
+.col-lg-12 .text-center {
+    padding-bottom: 100px;
+}
+
+.list-inline-item {
+    text-align: center;
+}
+
+.fab .fa-dribbble {
+    color: white;
 }
