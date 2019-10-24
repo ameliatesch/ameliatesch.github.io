@@ -1,0 +1,22 @@
+header.masthead {
+    background-image: url("../img/smallJungle.png");
+}
+header.masthead .intro-text {
+    padding-top: 600px;
+    padding-bottom: 100px;
+    color: #fec503;
+}
+
+#myFace{
+    width: 100%;
+}
+#portfolio{
+    background-color: #fec136;
+}
+.navbar-brand .js-scroll-trigger {
+    font-style: normal;
+}
+
+.intro-heading{
+    font-family: 'Cantarell', sans-serif;
+}
