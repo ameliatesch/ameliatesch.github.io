@@ -30,3 +30,84 @@ header.masthead .intro-text {
 .fab .fa-dribbble {
     color: white;
 }
+
+#SAAbox1 {
+    padding-top: 100px;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      /* transition: padding-top 0.3s, padding-bottom 0.3s; */
+      border: none;
+      background-color: #212529;
+    }
+    #mainNav .navbar-brand {
+      font-size: 1.25em;
+      transition: all 0.3s;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important;
+    }
+    #mainNav.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: #212529;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.25em;
+      padding: 12px 0;
+    }
+  }
+  .surveyResults{
+    text-align: left;
+    padding-top: 75px;
+  }
+
+  .paddingTop100{
+    padding-top: 100px;
+  }
+
+  #surveyFeedback{
+    text-align: center;
+  }
+
+  .paddingTop75{
+    padding-top: 75px;
+  }
+
+  .col-lg-12 .text-center {
+    padding-bottom: 20px;
+}
+
+h3{
+  font-weight: 400;
+}
+
+h2{
+  font-weight: 550;
+}
+
+#fontWeight400{
+  font-weight: 400;
+  font-size: 50px;
+}
+
+/* #portfolioModal2{
+  margin-left: 100px;
+  margin-right: 100px;
+} */
+
+#TripJarBody{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#phillip{
+  color: yellowgreen;
+}
+
+.paddingTop40{
+  padding-top: 40px;
+}
