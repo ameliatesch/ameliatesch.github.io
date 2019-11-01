@@ -9,6 +9,7 @@ header.masthead .intro-text {
 
 #myFace{
     width: 100%;
+    padding-top: 40px;
 }
 
 .intro-heading{
@@ -99,10 +100,10 @@ h2{
   margin-right: 100px;
 } */
 
-#TripJarBody{
+/* #TripJarBody{
   margin-right: 100px;
   margin-left: 100px;
-}
+} */
 
 #phillip{
   color: yellowgreen;
@@ -111,3 +112,24 @@ h2{
 .paddingTop40{
   padding-top: 40px;
 }
+
+.footerBackground{
+  background-color: #212529;
+}
+
+.highlightContact{
+  color: coral;
+}
+
+ul.social-buttons li a {
+  background-color: coral;
+}
+
+.footer-copyright{
+  color: coral;
+}
+
+.footer{
+  padding: 15px;
+}
+
