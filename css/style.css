@@ -7,9 +7,8 @@ header.masthead .intro-text {
     color: #fec503;
 }
 
-#myFace{
+.width100percent{
     width: 100%;
-    padding-top: 40px;
 }
 
 .intro-heading{
@@ -32,9 +31,6 @@ header.masthead .intro-text {
     color: white;
 }
 
-#SAAbox1 {
-    padding-top: 100px;
-}
 
 @media (min-width: 992px) {
     #mainNav {
@@ -133,3 +129,15 @@ ul.social-buttons li a {
   padding: 15px;
 }
 
+.paddingSides100{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.paddingBottom30{
+  padding-bottom: 30px;
+}
+
+.paddingBottom20{
+  padding-bottom: 20px;
+}
