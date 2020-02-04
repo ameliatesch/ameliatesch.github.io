@@ -1,5 +1,5 @@
 header.masthead {
-    background-image: url("../img/smallJungleReduced.png");
+    background-image: url("../img/JungleMidReduced.png");
 }
 header.masthead .intro-text {
     padding-top: 600px;
@@ -91,15 +91,6 @@ h2{
   font-size: 50px;
 }
 
-/* #portfolioModal2{
-  margin-left: 100px;
-  margin-right: 100px;
-} */
-
-/* #TripJarBody{
-  margin-right: 100px;
-  margin-left: 100px;
-} */
 
 #phillip{
   color: yellowgreen;
@@ -149,3 +140,8 @@ ul.social-buttons li a {
 .paddingBottom50{
   padding-bottom: 50px;
 }
+
+.paddingBottom20{
+  padding-bottom: 20px;
+}
+
