@@ -133,6 +133,10 @@ ul.social-buttons li a {
   padding-bottom: 20px;
 }
 
+.paddingBottom10{
+  padding-bottom: 10px;
+}
+
 .paddingTop20{
   padding-top: 20px;
 }
@@ -141,11 +145,15 @@ ul.social-buttons li a {
   padding-bottom: 50px;
 }
 
-.paddingBottom20{
-  padding-bottom: 20px;
+.paddingBottom40{
+  padding-bottom: 40px;
 }
 
 .portfolio-modal .modal-content {
   padding: 70px;
+}
+
+.paddingTop50{
+  padding-top: 50px;
 }
 
