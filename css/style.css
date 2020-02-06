@@ -157,3 +157,11 @@ ul.social-buttons li a {
   padding-top: 50px;
 }
 
+.modal-content .fullWidth {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* .giphy-embed {
+  max-width: 80%;
+} */
