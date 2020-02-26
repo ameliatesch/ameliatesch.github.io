@@ -104,6 +104,11 @@ h2{
   padding-top: 40px;
 }
 
+.paddingTop30{
+  padding-top: 30px;
+}
+
+
 .footerBackground{
   background-color: #212529;
 }
@@ -181,4 +186,20 @@ ul.social-buttons li a {
 .BoldOrange{
   font-weight: bold;
   color: #D7690A;
+}
+
+.ppbox{
+  background-color:#DC2A27;
+  border: none;
+  width: 11rem;
+  height: 12rem;
+  color: white
+}
+
+.techbox{
+  border: none;
+}
+
+.screenStretch{
+  margin-right: 0px !important;
 }
