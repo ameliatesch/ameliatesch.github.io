@@ -170,6 +170,10 @@ ul.social-buttons li a {
   padding-top: 50px;
 }
 
+.paddingTop60{
+  padding-top: 60px;
+}
+
 .modal-content .fullWidth {
   padding-left: 0px;
   padding-right: 0px;
@@ -186,6 +190,11 @@ ul.social-buttons li a {
 .BoldOrange{
   font-weight: bold;
   color: #D7690A;
+}
+
+.BoldBlack{
+  font-weight: bold;
+  color: black;
 }
 
 .ppbox{

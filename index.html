@@ -489,7 +489,7 @@
 
   <!-- Footer -->
   <!-- Footer -->
-  <footer class="page-footer font-small footerBackground pt-4">
+  <footer class="page-section page-footer font-small footerBackground pt-4" id="contact">
 
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
@@ -587,9 +587,9 @@
             <div class="col-md-10 col-sm-12 mx-auto">
               <!-- <p class="text-center" style="margin-bottom: 0px;">UX/UI Designer</p> -->
               <ul class="text-muted text-left">
-                <li><span class="font-weight-bold">Design & Testing:</span> survey, stakeholder meetings, in-person interviews, usability testing current site, AB testing lo-fi prototype</li>
-                <li><span class="font-weight-bold">Analysis & Definition:</span> affinity diagram, card-sorting, feature brainstorming and prioritization, user insight and problem statement</li>
-                <li><span class="font-weight-bold">Design:</span> wireframed homepage, low to high-fidelity homepage</li>
+                <li><span class="BoldBlack">Design & Testing:</span> survey, stakeholder meetings, in-person interviews, usability testing current site, AB testing lo-fi prototype</li>
+                <li><span class="BoldBlack">Analysis & Definition:</span> affinity diagram, card-sorting, feature brainstorming and prioritization, user insight and problem statement</li>
+                <li><span class="BoldBlack">Design:</span> wireframed homepage, low to high-fidelity homepage</li>
               </ul>
             </div>
           </div>
@@ -758,7 +758,8 @@
           <div class="row text-center justify-content-center">
             <div class="col-md-10 col-sm-12">
               <h3 class="text-uppercase paddingBottom10">Business Model Canvas</h3>
-              <p class="text-muted">With the insights gained from the stakeholder meeting, we drew up a business model canvas to analyze Save An Angel's system of operation.</p>
+              <p class="text-muted">We organized what we had learned about Save An Angel's operation into a business model canvas so we could keep in mind what and who the organization needs to be successful.
+              </p>
               <a href="SAA-bmc.html" target="_blank">
                 <img class="img-fluid" src="img/SAA/BusinessModelCanvas.png" alt="Business Model Canvas">
               </a>
@@ -771,15 +772,19 @@
         <!--SWOTS-->
 
         <div class="container paddingTop75">
-          <h3 class="text-uppercase paddingBottom10">SWOT Analysis</h3>
-          <p class="text-muted paddingBottom20">We conducted two SWOT Analyses, one for Save An Angel and another for
-            Austin Pets Alive!, another successful pet rescue organization in Austin, TX. The two organizations have
-            different niches in rescue, but both rely on community involvement.</p>
-          <div class="row" id="SAAbox1">
-            <div class="col-md-10 col-sm-12">
+          <h3 class="text-uppercase paddingBottom30">SWOT Analysis</h3>
+          <div class="row">
+            <div class="col-md-8 col-sm-12 mx-auto">
               <a href="SAA-swot2.html" target="_blank">
                 <img class="img-fluid width100percent" src="img/SAA/SWOT.png" alt="SWOT2">
               </a>
+            </div>
+            <div class="col-md-4 col-sm-12 text-left">
+              <ul class="paddingBottom30 text-muted">
+                <li class="paddingBottom20"><span class="BoldBlack">Site Strengths:</span> emotionally appealing images</li>
+                <li class="paddingBottom20"><span class="BoldBlack">Site Weaknesses:</span> outdated, lack of information, inconsistent wordage, broken links</li>
+                <li><span class="BoldBlack">Site Opportunities:</span> clear information, clean up primary navigation, add page for Operation Relocation</li>
+              </ul>
             </div>
           </div>
 
@@ -789,15 +794,13 @@
 
           <div class="container paddingTop75">
             <h3 class="text-uppercase text-center paddingBottom10">Proto Personas</h3>
-            <p class="text-muted paddingBottom20">Save An Angel's website serves two important groups: the <span
-                class="font-weight-bold">no-kill agencies</span> who receive the rescues, and those in the <span
-                class="font-weight-bold">Austin community</span> who volunteer for or donate to Save An Angel. To keep those two groups in mind, we created two proto personas to guide our surveys and interviews. </p>
+            <p class="text-muted paddingBottom20">To begin empathizing with our target users, my teammate created two proto personas for the two groups Save An Angel's website serves: the <span class="BoldBlack">no-kill agencies</span> who receive the rescues, and those in the <span class="BoldBlack">Austin community</span> who volunteer for or donate to Save An Angel. These personas underscored the importance of the <span class="BoldBlack">giving and receiving of information</span> between the two groups and Save An Angel in order to coordinate mission efforts.</p>
             <div class="row">
               <div class="col-md-6 col-sm-12">
                 <p>Receiving Organization</p>
               </div>
               <div class="col-md-6 col-sm-12">
-                <p>Donor</p>>
+                <p>Donor</p>
               </div>
             </div>    
             <div class="row">
@@ -821,9 +824,7 @@
             <div class="row text-center justify-content-center">
               <div class="col-md-10 col-sm-12">
                 <h3 class="text-uppercase paddingBottom10">Survey Insights</h3>
-                <p class="text-muted">We made two surveys: one for receiving agencies, and one for potential donors and
-                  volunteers. The receiving agencies did not respond to our survey, but we receieved ample responses
-                  from potential volunteers and donors.</p>
+                <p class="text-muted">Using the proto personas, I made a survey for each group. The receiving agencies did not respond to our survey, but we receieved ample responses from potential volunteers and donors.</p>
                 <a href="SAA-surveyInsights.html" target="_blank">
                   <img class="img-fluid" src="img/SAA/SurveyInsights.png">
                 </a>
@@ -837,8 +838,7 @@
 
           <div class="container paddingTop75">
             <h3 class="text-uppercase paddingBottom10">Usability Testing Current Site</h3>
-            <p class="text-muted paddingBottom20">We tested the current Save An Angel site, specifically looking at the
-              routes of donation and volunteering. From our feedback, we formed some goals for our redesign.</p>
+            <p class="text-muted paddingBottom20">We tested the current Save An Angel site, specifically looking at the routes of donation and volunteering. From our feedback, we formed some goals for our redesign.</p>
             <div class="row">
               <div class="col-md-4 col-sm-12 text-left">
                 <img class="img-fluid width100percent" id="myFace" src="img/SAA/TestingResults.png">
@@ -855,18 +855,28 @@
           <!--Affinity & Empathy-->
 
           <div class="container paddingTop75">
-            <h3 class="text-uppercase paddingBottom10">Affinity Diagram & Empathy Map</h3>
-            <p class="text-muted paddingBottom20">Together we organized the data from our in-person interviews into an
-              affinity diagram and empathy map. These exercises furthered our understanding of why users give to rescue
-              organizations, what impedes giving, how users feel about giving and how they find out about opportunities.
-            </p>
             <div class="row">
+              <div class="col-lg-12 mx-auto">
+                <h3 class="text-uppercase paddingBottom10">Affinity Diagram</h3>
+                <p class="text-muted paddingBottom20">As a team we organized the data from our in-person interviews into an affinity diagram and empathy map.
+                </p>
+              </div>
+            </div>
+    
+            <div class="row paddingBottom30">
               <div class="col-md-12 col-sm-12 text-left mx-auto">
                 <a href="SAA-affinity.html" target="_blank">
                   <img class="img-fluid" src="img/SAA/AffinityDiagramCrop.jpg">
                 </a>
               </div>
             </div>
+
+            <div class="row">
+              <div class="col-lg-12 mx-auto">
+                <h3 class="text-uppercase paddingBottom10">Empathy Map</h3>
+              </div>
+            </div>
+
             <div class="row paddingTop40">
               <div class="col-md-12 col-sm-12 text-center mx-auto">
                 <a href="SAA-empathy.html" target="_blank">
@@ -874,6 +884,31 @@
                 </a>
               </div>
             </div>
+
+            <div class="row paddingTop60">
+              <div class="col-lg-12 mx-auto">
+                <h3 class="paddingBottom20">Insights from Affinity & Empathy Maps</h3>
+                
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-10 col-sm-12 mx-auto">          
+                <ul class="text-left text-muted">
+                  <li class="paddingBottom10">Users' main goals for donating or volunteering: 
+                    <ul class="BoldBlack">
+                      <li>to "give back"</li>
+                      <li>to "make a difference"</li>
+                      <li>to spend time with animals</li>
+                      <li>to help animals</li>
+                    </ul>
+                  </li>
+                  <li class="paddingBottom10">Many users reported that their <span class="BoldBlack">busy schedule</span> limits their ability to volunteer</li>
+                  <li><span class="BoldBlack">Confusing sites, lack of information</span>, and <span class="BoldBlack">lengthy processes</span> deter users them from getting involved online</li>
+                </ul>
+              </div>
+            </div>
+
           </div>
 
 
@@ -882,10 +917,9 @@
 
           <!--Card Sorting the Nav-->
 
-          <div class="container paddingTop75">
+          <div class="container paddingTop100">
             <h3 class="text-uppercase paddingBottom10">Card Sorting</h3>
-            <p class="text-muted paddingBottom30">We card-sorted the navigation to make sure we had the most intuitive,
-              efficient site layout.</p>
+            <p class="text-muted paddingBottom30">We card-sorted the navigation to make sure we had the most intuitive, efficient site layout.</p>
             <div class="row">
               <div class="col-md-4 col-sm-12 text-left">
                 <img class="img-fluid width100percent" id="myFace" src="img/SAA/CardSortingProcess.jpg">
@@ -896,13 +930,38 @@
                 </a>
               </div>
             </div>
+
+            <div class="row paddingTop40">
+              <div class="col-lg-12 mx-auto">
+                <h3 class="paddingBottom20">Results of Card-Sorting</h3>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12">          
+                <ul class="text-left text-muted">
+                  <li class="paddingBottom10">Renamed some of tabs of the global nav to be the words for which users were specifically scanning (ex. "Donate", "Adoption")</li>
+                  <li class="paddingBottom10">Added social media buttons and a search bar to top right corner to aid in finding information</li>
+                  <li class="paddingBottom10">Got rid of the "Shop" because it was a small part of Save An Angel's mission and income</li>
+                  <li class="paddingBottom10">Mirrored the global nav on the footer for easy access and added social media buttons</li>
+                  <li>Cleaned up the global nav by adding the only resource page to the "About" tab, and adding a "What's Happening" tab to highlight Save An angel's blog, newsletter and events</li>
+                </ul>
+              </div>
+            </div>
+            
           </div>
+
 
           <!--Ideation & Feature Prioritization Matrix-->
 
           <div class="container paddingTop100">
-            <h3 class="text-uppercase paddingBottom10">Ideation & Feature Prioritization</h3>
-            <p class="text-muted paddingBottom30">Using the "I Like, I Wish, What If" method, we brainstormed potential features and ways the site could better serve its purposes. Then we ranked those features according to their priority and potential impact.</p>
+            <div class="row">
+              <div class="col-lg-12 mx-auto">
+                <h3 class="text-uppercase paddingBottom10">Ideation</h3>
+                <p class="text-muted paddingBottom10">As a team, we used the "I Like, I Wish, What If" method to brainstorm potential features and ways the site could better serve its purposes.</p>
+              </div>
+            </div>
+            
             <div class="row">
               <div class="col-md-12 col-sm-12">
                 <a href="SAA-ilike.html" target="_blank">
@@ -910,26 +969,43 @@
                 </a>
               </div>
             </div>
-          </div>
 
-          <div class="container">
-            <div class="row text-center justify-content-center">
-              <div class="col-md-12 col-sm-12">
-                <a href="SAA-featurePrioritization.html" target="_blank">
-                  <img class="img-fluid" src="img/SAA/FeaturePrioritization.jpg">
-                </a>
+            <div class="row">
+              <div class="col-lg-12 mx-auto">
+                <h3 class="text-uppercase paddingBottom40">Feature Prioritization</h3>
               </div>
             </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-9 col-sm-12 mx-auto">
+                  <a href="SAA-featurePrioritization.html" target="_blank">
+                    <img class="img-fluid" src="img/SAA/FeaturePrioritization.jpg">
+                  </a>
+                </div>
+                <div class="col-md-3 col-sm-12 text-left">
+                  <p class="text-muted paddingBottom20">Top Ranking Features:</p>
+                  <ul class="paddingBottom30 text-muted">
+                    <li class="paddingBottom20">A clear WHY and HOW to donate / volunteer</li>
+                    <li class="paddingBottom20">Better ways to donate (ex. venmo)</li>
+                    <li class="paddingBottom20">A map of the animals' journey</li>
+                    <li class="paddingBottom20">Forms that autofill for returning users</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
           </div>
+
+  
 
           <!--Storyboard-->
 
-          <div class="container paddingTop75">
+          <div class="container paddingTop100">
             <div class="row text-center justify-content-center">
               <div class="col-md-10 col-sm-12">
                 <h3 class="text-uppercase paddingBottom10">Storyboard</h3>
-                <p class="text-muted paddingBottom10">Our storyboard demonstrates how the changes we make to the site
-                  would positively impact users.</p>
+                <p class="text-muted paddingBottom10">Through storyboarding Nancy's experience, we were reminded of the importance of convenient, clear information and quick, simple processes. We have to make getting involved a manageable task so that those with busy schedules aren't deterred.</p>
                 <a href="SAA-storyboard.html" target="_blank">
                   <img class="img-fluid" src="img/SAA/Storyboard.jpg">
                 </a>
@@ -941,8 +1017,7 @@
 
           <div class="container paddingTop75">
             <h3 class="text-uppercase paddingBottom10">User Flows</h3>
-            <p class="text-muted paddingBottom30">The two flows we chose to focus on improving were the processes of
-              volunteering and donating.</p>
+            <p class="text-muted">With Nancy's experience in mind, we created a two user flows that would provide the necessary information and complete the task while remaining short and sweet.</p>
             <div class="row">
               <div class="col-md-6 col-sm-12 text-left">
                 <a href="SAA-userFlow1.html" target="_blank">
@@ -961,15 +1036,30 @@
           <!--User Journey Maps-->
 
           <div class="container paddingTop75">
-            <h3 class="text-uppercase paddingBottom10">User Journey Maps</h3>
-            <p class="text-muted paddingBottom30">For both the donation and volunteering flows we employed a user journey map to track the user's emotional experience, highlighting areas of opportunity.</p>
             <div class="row">
-              <div class="col-md-10 col-sm-12 text-center">
+              <div class="col-lg-12 mx-auto">
+                <h3 class="text-uppercase paddingBottom40">User Journey Map</h3>
+              </div>
+            </div>
+            
+            <div class="row">
+              
+              <div class="col-md-8 col-sm-12 mx-auto">
                 <a href="SAA-journey2.html" target="_blank">
                   <img class="img-fluid" src="img/SAA/JourneyMap2.png">
                 </a>
               </div>
+  
+              <div class="col-lg-4 mx-auto text-left">
+                <p class="text-muted paddingBottom10">Through a user journey map, we found that low points of the emotional journey were <span class="BoldBlack">locating important information/items</span>  and <span class="BoldBlack">filling out forms</span>. Opportunties to improve this are:</p>
+                <ul class="text-muted">
+                  <li class="paddingBottom20">Making the volunteer registration button highly visible</li>
+                  <li class="paddingBottom20">Minimize form fills or show progress when filling out forms</li>
+                  <li>Make confirmation visually appealing</li>
+                </ul>
+              </div>
             </div>
+          
           </div>
 
 
@@ -979,7 +1069,7 @@
             <div class="row text-center justify-content-center">
               <div class="col-md-12">
                 <h3 class="text-uppercase paddingBottom10">UI Style Guide</h3>
-                <p class="text-muted paddingBottom20">Before moving into prototyping, we compiled a style guide. This allowed multiple designers to work on the different mobile and desktop flows, while maintaining unity in our design.</p>
+                <p class="text-muted paddingBottom20">We based the color scheme off of Save An Angel's iconic blue and the bright orange from its current website, and added shades of both colors for visual depth. The orange was a peppy contrast to the cool blue, and we chose this happy color for times when we hoped the user would be generous - for example, with the "Donate" CTA.</p>
               </div>
               <div class="col-md-10 col-sm-12">
                 <a href="SAA-styleGuide.html" target="_blank">
@@ -1059,17 +1149,16 @@
               <div class="row">
                 <h3 class="paddingBottom20 mx-auto">Usability Testing Feedback</h3>
                 <ul class="text-left">
-                  <li>Users wished that it said
+                  <li class="paddingBottom10">Users wished that it said
                     <span class="BoldOrange">"Donate"</span> instead of
                     <span class="BoldOrange">"Ways to Give"</span> because that's the word for which their eye is
                     scanning</li>
-                  <li>Users wanted
+                  <li class="paddingBottom10">Users wanted
                     <span class="BoldOrange">“Adoption”</span> to be in the main menu to make it easier to find</li>
-                  <li>Remove the facebook feed. Don’t direct users of the website to social media, because that draws
+                  <li class="paddingBottom10">Remove the Facebook feed. Don’t direct users of the website to social media, because that draws
                     them away from the site - where they would potentially donate</li>
-                  <li>Improve the wording for the adoption process</li>
-                  <li>Probably don’t need to be able to preview the adoption form, and it is taking away from the actual
-                    call to action</li>
+                  <li class="paddingBottom10">Improve the wording for the adoption process</li>
+                  <li>Probably don’t need to be able to preview the adoption form, and it is taking away from the actual call to action</li>
                 </ul>
               </div>
             </div>
@@ -1128,14 +1217,9 @@
 
               <div class="row text-left">
                 <ul>
-                  <li>User 1 felt more they were more <span class="BoldOrange;">familiar</span> with the right
-                    side vertical navigation on desktop.</li>
-                  <li>User 2 felt either desktop nav style could work, but to consider that the right side vertical menu
-                    <span class="BoldOrange;">decreases the screen space</span>
-                    available for content.</li>
-                  <li>Users were split on which mobile nav they liked better. They liked the <span
-                    class="BoldOrange;">smoothness and hierarchy</span> of the hamburger expanding nav, but the
-                    <span class="BoldOrange;">personality and swiping action</span> of the vertical swiping nav.
+                  <li class="paddingBottom10">User 1 felt more they were more <span class="BoldOrange;">familiar</span> with the right side vertical navigation on desktop.</li>
+                  <li class="paddingBottom10">User 2 felt either desktop nav style could work, but to consider that the right side vertical menu <span class="BoldOrange;">decreases the screen space</span> available for content.</li>
+                  <li>Users were split on which mobile nav they liked better. They liked the <span class="BoldOrange;">smoothness and hierarchy</span> of the hamburger expanding nav, but the <span class="BoldOrange;">personality and swiping action</span> of the vertical swiping nav.
                   </li>
                 </ul>
               </div>
@@ -1163,9 +1247,7 @@
             </div>
             <div class="row paddingBottom30">
               <div class="col-md-8 mx-auto">
-                <p class="text-muted">For our hi-fi desktop, we settled on a simple drop-down navigation because it is
-                  recognizable and comfortable for users, maintains the hierarchy, and conserves the most screen space
-                  compared to the other styles tested.</p>
+                <p class="text-muted">For our hi-fi desktop, we settled on a simple drop-down navigation because it is recognizable and comfortable for users, maintains the hierarchy, and conserves the most screen space compared to the other styles tested.</p>
               </div>
             </div>
 
@@ -1177,9 +1259,7 @@
             </div>
             <div class="row paddingBottom30">
               <div class="col-md-8 mx-auto">
-                <p class="text-muted">For our hi-fi mobile, we kept the playful swiping motion in the nav, but put the
-                  tab at the bottom of the screen to make it easy to reach with the thumb. We also integrated the
-                  drop-down hierarchy from the expanding hamburger version.</p>
+                <p class="text-muted">For our hi-fi mobile, we kept the playful swiping motion in the nav, but put the tab at the bottom of the screen to make it easy to reach with the thumb. We also integrated the drop-down hierarchy from the expanding hamburger version.</p>
               </div>
             </div>
 
@@ -1192,16 +1272,9 @@
             <h3 class="text-uppercase paddingBottom30">Takeaways</h3>
             <div class="row text-left">
               <ul>
-                <li class="paddingBottom20">My team had to rely heavily on usability testing to make decisions, for
-                  example in deicidng on a navigation style. After receiving feedback, we decided to combine some
-                  aspects of the two styles for the most appealing and clear system.</li>
-                <li class="paddingBottom20">Continuous communication of progress enabled us to move quickly as a team,
-                  to help each other with any tasks or roadblocks, and to quickly clear up any confusion.</li
-                  class="paddingBottom20">
-                <li class="paddingBottom20">We were not able to get survey responses from many receiving agencies. These
-                  agencies comprised one of our proto personas, and we had originally planned to research and improve
-                  upon the part of the site that serves their purposes. Because our data was limited, we focused instead
-                  on the volunteer/donor serving functions of the website.</li class="paddingBottom20">
+                <li class="paddingBottom20">We were not able to get survey responses from many receiving agencies. We understood that for these busy and often small-staffed agencies, filling out our survey for free might not have been their highest priority. Because we were not able to get data on them, we chose to focus on our other proto-persona, the volonteer/donor, for which we received a lot of survey and interview data.</li>
+                <li class="paddingBottom20">Due to a mix-up, during a chunk of the design process we were not able to get in touch with our stakeholder. With the time constraints of the project we had to move forward with the information he had given us in our interview and the data gathered in our research. While out of touch we still sent our stakeholder reports of our progress, and once we were able to regain contact with him we had a meeting to present our work and get more information.</li>
+                <li>I enjoyed this project and team immensely! I have great respect for the skill and character of all my teammates. Continuous communication of progress enabled us to move quickly as a unit, to help each other with any tasks or roadblocks, and to quickly clear up any confusion. It was inspiring to work with such diligent, respectful and talented people, and to create a product that could further animal rescue efforts.</li>
               </ul>
             </div>
 
@@ -1753,11 +1826,11 @@
 
 
 
-                <!--Ethnographic Observations-->
+                <!--Literature Review-->
                 <div class="container paddingTop40">
                   <div class="row">
                     <div class="col-md-10 mx-auto">
-                      <h3 class="text-uppercase">Ethnographic Observations
+                      <h3 class="text-uppercase">Literature Review
                       </h3>
                       <a href="EthnographicSources.docx" target="_blank">
                         <p style="color:#03ADC4; margin-bottom: 20px;">See sources</p>
@@ -1811,7 +1884,7 @@
                   <div class="row">
                     <div class="col-md-10 col-sm-12 mx-auto">
                       <h3 class="text-uppercase paddingBottom10">Insights from Survey</h3>
-                      <p class="text-muted">We received 100 responses on our survey and some great insights.</p>
+                      <p class="text-muted">100 responses</p>
                     </div>
                   </div>
                   <div class="row">
@@ -1828,7 +1901,7 @@
                 <div class="row">
                   <div class="col-md-12 col-sm-12 paddingTop75">
                     <h3 class="text-uppercase paddingBottom10">Affinity Diagram</h3>
-                    <p class="text-muted paddingBottom30">We conducted 6 in-person interviews on male and feamle adults aged 20 to 55 years old, one student and the rest working full-time. Together we constructed an affinity diagram through which to seach for trends in the interview data.</p>
+                    <p class="text-muted paddingBottom30">Individually we conducted 6 in-person interviews on male and feamle adults aged 20 to 55 years old, one student and the rest working full-time. Together we constructed an affinity diagram through which to seach for trends in the interview data.</p>
                   </div>
                 </div>
                 <div class="row">
@@ -1954,10 +2027,10 @@
                 <div class="container paddingTop75 paddingBottom100">
                     <div class="row">
                       <div class="col-md-5 col-sm-12 mx-auto">
-                        <h3 class="text-center" style="margin-bottom: 0px;">Tech Pros</h3>
+                        <h3 class="text-center" style="margin-bottom: 0px;">Pros of Using Tech</h3>
                       </div>
                       <div class="col-md-5 col-sm-12 mx-auto">
-                        <h3 class="text-center" style="margin-bottom: 0px;">Tech Cons</h3>
+                        <h3 class="text-center" style="margin-bottom: 0px;">Cons of Using Tech</h3>
                       </div>
                     </div>
   
@@ -2043,17 +2116,6 @@
 
                 <!--User's Journey-->
                 <div class="container">
-                  <div class="row text-center justify-content-center paddingTop75">
-                    <h3 class="text-uppercase paddingBottom10">User Journey</h3>
-                    <p class="text-muted" style="margin-bottom: 0px;">We created a UX Scenario and Storyboard to demonstrate how H-E-B e-z would positively impact its users, along with a user journey map to track the user's emotional experience as they walked through the site.</p>
-                  </div> 
-
-                  <div class="row">
-                    <div class="col-md-10 col-sm-12 mx-auto">
-                      <img class="img-fluid paddingBottom30" src="img/HEB/UXScenario.png">
-                   </div>
-                  </div>
-
                   <div class="row">
                     <div class="col-md-10 col-sm-12 mx-auto">
                       <img class="img-fluid paddingBottom30" src="img/HEB/Storyboard.png">
