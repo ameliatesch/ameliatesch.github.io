@@ -19,9 +19,6 @@ header.masthead .intro-text {
     padding-top: 40px;
 }
 
-.col-lg-12 .text-center {
-    padding-bottom: 100px;
-}
 
 .list-inline-item {
     text-align: center;
@@ -32,54 +29,24 @@ header.masthead .intro-text {
 }
 
 
-@media (min-width: 992px) {
-    #mainNav {
-      padding-top: 0px;
-      padding-bottom: 0px;
-      /* transition: padding-top 0.3s, padding-bottom 0.3s; */
-      border: none;
-      background-color: #212529;
-    }
-    #mainNav .navbar-brand {
-      font-size: 1.25em;
-      transition: all 0.3s;
-    }
-    #mainNav .navbar-nav .nav-item .nav-link {
-      padding: 1.1em 1em !important;
-    }
-    #mainNav.navbar-shrink {
-      padding-top: 0;
-      padding-bottom: 0;
-      background-color: #212529;
-    }
-    #mainNav.navbar-shrink .navbar-brand {
-      font-size: 1.25em;
-      padding: 12px 0;
-    }
-  }
-  .surveyResults{
-    text-align: left;
-    padding-top: 75px;
-  }
+.paddingTop100{
+  padding-top: 100px;
+}
 
-  .paddingTop100{
-    padding-top: 100px;
-  }
+.paddingBottom100{
+  padding-bottom: 100px;
+}  
 
-  .paddingBottom100{
-    padding-bottom: 100px;
-  }
+#surveyFeedback{
+  text-align: center;
+}
 
-  #surveyFeedback{
-    text-align: center;
-  }
+.paddingTop75{
+  padding-top: 75px;
+}
 
-  .paddingTop75{
-    padding-top: 75px;
-  }
-
-  .col-lg-12 .text-center {
-    padding-bottom: 20px;
+.col-lg-12 .text-center {
+  padding-bottom: 20px;
 }
 
 h3{
@@ -162,10 +129,6 @@ ul.social-buttons li a {
   padding-bottom: 40px;
 }
 
-.portfolio-modal .modal-content {
-  padding: 70px;
-}
-
 .paddingTop50{
   padding-top: 50px;
 }
@@ -202,17 +165,44 @@ ul.social-buttons li a {
 }
 
 .ppbox{
-  background-color:#DC2A27;
-  border: none;
+  background-color:#FFE2E2;
+  border-color: #DC2A27;
   width: 11rem;
   height: 12rem;
-  color: white
+  color: black;
 }
 
 .techbox{
   border: none;
 }
 
-.screenStretch{
-  margin-right: 0px !important;
-}
+
+
+
+@media (min-width: 992px) {
+    #mainNav {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      /* transition: padding-top 0.3s, padding-bottom 0.3s; */
+      border: none;
+      background-color: #212529;
+    }
+    #mainNav .navbar-brand {
+      font-size: 1.25em;
+      transition: all 0.3s;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important;
+    }
+    #mainNav.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: #212529;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.25em;
+      padding: 12px 0;
+    }
+  }
+
+
