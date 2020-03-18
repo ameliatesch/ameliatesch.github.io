@@ -176,7 +176,11 @@ ul.social-buttons li a {
   border: none;
 }
 
-
+#siteButton{
+  font-size: 2.75em;
+  background-color: #03ADC4;
+  border-color: #03ADC4;
+}
 
 
 
