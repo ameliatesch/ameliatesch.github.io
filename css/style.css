@@ -182,7 +182,10 @@ ul.social-buttons li a {
   border-color: #03ADC4;
 }
 
-
+#HEB-Research, #HEB-Analysis, #HEB-Design, #HEB-Development{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
 
 
 
