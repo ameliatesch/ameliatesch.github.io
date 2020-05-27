@@ -186,12 +186,31 @@ ul.social-buttons li a {
   padding-bottom: 20px;
 }
 
+#HEB-Overview{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 #SAA-Research, #SAA-Analysis, #SAA-Design{
   padding-bottom: 0px;
 }
 
 #TJ-Research, #TJ-Analysis, #TJ-Design{
   padding-bottom: 20px;
+}
+
+#TJ-Overview{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#TJ-Research{
+  padding-top:100px;
+}
+
+#SAA-Overview{
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 
