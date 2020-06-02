@@ -196,7 +196,7 @@ ul.social-buttons li a {
 }
 
 #TJ-Research, #TJ-Analysis, #TJ-Design{
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 #TJ-Overview{
@@ -204,7 +204,7 @@ ul.social-buttons li a {
   padding-bottom: 0px;
 }
 
-#TJ-Research{
+#TJ-Research, #TJ-Analysis{
   padding-top:100px;
 }
 
@@ -212,6 +212,11 @@ ul.social-buttons li a {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
+.portfolio-modal .modal-content {
+  padding: 20px;
+}
+
 
 
 

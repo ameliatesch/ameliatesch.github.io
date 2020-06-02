@@ -32,6 +32,7 @@
 </head>
 
 <body id="page-top">
+
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
@@ -550,18 +551,51 @@
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
+        <!---Close modal X
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
             <div class="rl"></div>
           </div>
+        </div> -->
+
+
+
+        <!--Navbar--->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="SAA-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+          <ul class="navbar-nav smooth-scroll d-flex">
+            <li class="nav-item p-2">
+              <a class="nav-link" href="#SAA-Overview">Overview<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="#SAA-Research">Research</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="#SAA-Analysis">Analysis</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="#SAA-Design">Design</a>
+            </li>
+            <li class="nav-item mr-auto p-2">
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Project</button>
+            </li>
+          </ul>
         </div>
+      </nav>
+
 
         <!--Intro-->
 
-        <div class="container">
+        <div class="container paddingTop30">
           <div class="row">
             <div class="col-lg-10 mx-auto">
               <div class="modal-body">
+              
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Website Redesign for Austin Non-profit</h2>
                 <p class="item-intro text-muted">Save An Angel, 2019</p>
@@ -571,6 +605,8 @@
                 </ul>  -->
           </div>
         </div>
+
+        
 
   <!--SAA - Overview Spread-->
       <section id="SAA-Overview">
@@ -1370,7 +1406,7 @@
 
           <!--Takeways-->
 
-          <div class="container paddingTop75 paddingBottom50">
+          <div class="container paddingTop75 paddingBottom75">
             <div class="row">
               <div class="col-md-12 mx-auto">
                 <h3 class="text-uppercase paddingBottom30">Takeaways</h3>
@@ -1389,10 +1425,13 @@
             </div>
           </div>
             
-
+          <!---Close Modal Button--
+            <div class="container paddingBottom50">
            <button class="btn btn-primary mx-auto" data-dismiss="modal" type="button">
             <i class="fas fa-times"></i>
-            Close Project</button>
+            Close Project</button> 
+          </div> -->
+           
 
 
           
@@ -1538,9 +1577,8 @@
           <div class="container paddingTop50">
             <div class="row">
               <div class="col-lg-10 col-sm-12 mx-auto">
-                <h3 class="text-uppercase text-center">User Research</h3>
-                <p class="text-muted">My first step towards creating an app that would
-                  resonate with users was finding out about their experiences with travel planning. I conducted a
+                <h3 class="text-uppercase text-center">Approach</h3>
+                <p class="text-muted">To find out about users' experiences with travel planning I conducted a
                   <span id="phillip">survey</span> and
                   <span id="phillip">5 in-person interviews</span> with subjects that varied in age, income,
                   and cultural group. </p>
@@ -1552,7 +1590,7 @@
           <div class="container">
             <div class="row paddingTop75">
               <div class="col-md-10 col-sm-12 mx-auto">
-                <h3 class="text-center text-uppercase">Survey Insights</h3>
+                <h3 class="text-center">Survey Insights</h3>
                 <a href="TJ-surveyData.html" target="_blank">
                   <img class="img-fluid" src="img/TJ/SurveyData.png">
                 </a>
