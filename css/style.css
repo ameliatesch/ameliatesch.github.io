@@ -217,10 +217,27 @@ ul.social-buttons li a {
   padding: 20px;
 }
 
+#mainNav li {
 
 
+  margin: 8.6vh;
 
 
+  margin-left: auto;
+  margin-right:auto;
+
+
+}
+
+
+#modalNavList li {
+
+  margin: 5vh;
+
+  margin-left: auto;
+  margin-right:auto;
+
+}
 
 
 @media (min-width: 992px) {
@@ -247,6 +264,13 @@ ul.social-buttons li a {
       font-size: 1.25em;
       padding: 12px 0;
     }
+
+    #mainNav li {
+      margin: 0;
+    }
+
+
+
   }
 
 
