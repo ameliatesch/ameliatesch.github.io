@@ -14,4 +14,12 @@ $(document).ready(function() {
             });
         });
     });
+
+    if($(window).width() <= 500) {
+
+        var indent = -0.6 - (500 - $(window).width())*0.001
+        console.log(indent);
+
+        $('.hebheaderfix').css({"text-indent": indent + 'em', "margin-left":'0em'});
+    }
 });
