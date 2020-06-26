@@ -222,11 +222,17 @@ ul.social-buttons li a {
 
   margin: 4.5vh;
 
-
   margin-left: auto;
   margin-right:auto;
 
 
+}
+
+#largeNavMarginFix li {
+  margin: 3vh;
+
+  margin-left: auto;
+  margin-right:auto;
 }
 
 
