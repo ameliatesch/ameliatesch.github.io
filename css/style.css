@@ -229,18 +229,26 @@ ul.social-buttons li a {
 
 }
 
-@media screen and (max-width: 991px) {
+
+
+@media (max-width: 500px) {
+
+  iframe {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .hebheaderfix {
+    text-indent:-0.6em;
+    margin-left:0em;
+  }
+
+}
+
+@media (max-width: 991px) {
 
   #mainNav li {
     font-size: 1.25em;
-  }
-
-  .center-mobile {
-
-    margin: center;
-    width: 600px;
-    height: auto;
-
   }
 
 }
