@@ -3,7 +3,10 @@ var speed = 'slow';
 $('html, body').hide();
 $('html, body').css({visibility:''});
 
-$(document).ready(function() {
+window.onpageshow = fadeIn();
+
+function fadeIn() {
+    
     $('html, body').fadeIn(speed, function() {
         $('a[href], button[href]').click(function(event) {
             var url = $(this).attr('href');
@@ -17,8 +20,15 @@ $(document).ready(function() {
 
     fixHeaderMargin();
 
+}
+
+/**
+$(document).ready(function() {
+    fadeIn();
+
     
 });
+**/
 
 $(window).resize(function() {
     fixHeaderMargin();
