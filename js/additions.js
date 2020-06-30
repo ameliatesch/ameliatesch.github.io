@@ -33,6 +33,7 @@ window.addEventListener('pageshow', function() {
     if($('html, body').is(':hidden')) {
         $('html, body').fadeIn(speed);
     }
+    fixHeaderMargin();
 })
 
 $(window).resize(function() {
