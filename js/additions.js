@@ -3,7 +3,7 @@ var speed = 'slow';
 $('html, body').hide();
 $('html, body').css({visibility:''});
 
-$(document).ready(function() {
+/*$(document).ready(function() {
     $('html, body').fadeIn(speed, function() {
         $('a[href], button[href]').click(function(event) {
             var url = $(this).attr('href');
@@ -12,14 +12,28 @@ $(document).ready(function() {
             $('html, body').fadeOut(speed, function() {
                 window.location = url;
             });
-            $('html, body').show();
         });
     });
 
     fixHeaderMargin();
 
     
+});*/
+
+$('a[href], button[href]').click(function(event) {
+        var url = $(this).attr('href');
+        if (url.indexOf('#') == 0 || url.indexOf('javascript:') == 0 || url.indexOf('mailto:') == 0) return;
+        event.preventDefault(); 
+        $('html, body').fadeOut(speed, function() {
+            window.location = url;
+    });
 });
+
+window.addEventListener('pageshow', function() {
+    if($('html, body').is(':hidden')) {
+        $('html, body').fadeIn(speed);
+    }
+})
 
 $(window).resize(function() {
     fixHeaderMargin();
