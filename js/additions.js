@@ -3,10 +3,7 @@ var speed = 'slow';
 $('html, body').hide();
 $('html, body').css({visibility:''});
 
-window.onpageshow = fadeIn();
-
-function fadeIn() {
-    
+/*$(document).ready(function() {
     $('html, body').fadeIn(speed, function() {
         $('a[href], button[href]').click(function(event) {
             var url = $(this).attr('href');
@@ -15,21 +12,29 @@ function fadeIn() {
             $('html, body').fadeOut(speed, function() {
                 window.location = url;
             });
-            $('html, body').show();
         });
     });
 
     fixHeaderMargin();
 
-}
-
-/**
-$(document).ready(function() {
-    fadeIn();
-
     
+});*/
+
+$('a[href], button[href]').click(function(event) {
+        var url = $(this).attr('href');
+        if (url.indexOf('#') == 0 || url.indexOf('javascript:') == 0 || url.indexOf('mailto:') == 0) return;
+        event.preventDefault(); 
+        $('html, body').fadeOut(speed, function() {
+            window.location = url;
+    });
 });
-**/
+
+window.addEventListener('pageshow', function() {
+    if($('html, body').is(':hidden')) {
+        $('html, body').fadeIn(speed);
+    }
+    fixHeaderMargin();
+})
 
 $(window).resize(function() {
     fixHeaderMargin();
