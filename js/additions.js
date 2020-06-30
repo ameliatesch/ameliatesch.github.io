@@ -15,6 +15,7 @@ function fadeIn() {
             $('html, body').fadeOut(speed, function() {
                 window.location = url;
             });
+            $('html, body').show();
         });
     });
 
@@ -38,10 +39,7 @@ $(window).resize(function() {
 function fixHeaderMargin() {
     if($(window).width() <= 500) {
 
-        $('.portfolio-modal').addClass('text-left');
-
         var indent = -0.6 - (500 - $(window).width())*0.0055
-        console.log(indent);
 
         $('.hebheaderfix').css({"text-indent": indent + 'em', "margin-left":'0em'});
     } else {
