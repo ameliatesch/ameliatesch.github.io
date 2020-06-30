@@ -1,5 +1,10 @@
 header.masthead {
-    background-image: url("../img/JungleMidReduced.png");
+    background-image: url("../img/smallJungleReduced.jpg");
+}
+@media (min-width: 500px) {
+    header.masthead {
+      background-image: url("../img/JungleMidReduced.png");
+    }
 }
 header.masthead .intro-text {
     padding-top: 600px;
@@ -235,8 +240,6 @@ ul.social-buttons li a {
   margin-right:auto;
 }
 
-
-
 @media (max-width: 500px) {
 
   iframe {
@@ -248,6 +251,10 @@ ul.social-buttons li a {
     text-indent:-0.6em;
     margin-left:0em; 
     
+  }
+
+  .mobileLeftAlign p {
+    text-align: left;
   }
 
 }
@@ -289,6 +296,8 @@ ul.social-buttons li a {
     #mainNav li {
       margin: 0;
     }
+
+
 }
 
 

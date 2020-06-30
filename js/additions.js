@@ -28,6 +28,7 @@ $(window).resize(function() {
 function fixHeaderMargin() {
     if($(window).width() <= 500) {
 
+        $('.portfolio-modal').addClass('text-left');
 
         var indent = -0.6 - (500 - $(window).width())*0.0055
         console.log(indent);
