@@ -240,6 +240,16 @@ ul.social-buttons li a {
   margin-right:auto;
 }
 
+section#contact {
+  background-color: #212529;
+  background-image: none;
+  padding-bottom: 0px;
+}
+
+
+
+
+
 @media (max-width: 500px) {
 
   iframe {
