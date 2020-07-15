@@ -257,12 +257,32 @@ ul.social-buttons li a {
     text-align: left;
   }
 
+
 }
 
 @media (max-width: 991px) {
 
   #mainNav li {
     font-size: 1.25em;
+  }
+
+  #SAA-Research, #SAA-Analysis, #SAA-Design {
+    padding-top: 75px;
+    padding-bottom: 0px;
+  }
+
+  #HEB-Research, #HEB-Analysis, #HEB-Design, #HEB-Development {
+    padding-top: 75px;
+    padding-bottom: 0px;
+  }
+
+  #TJ-Research, #TJ-Analysis, #TJ-Design {
+    padding-top: 75px;
+    padding-bottom: 0px;
+  }
+
+  .section-padding {
+    padding-top: 20px
   }
 
 }
